@@ -1,0 +1,29 @@
+{
+  "name": "compose-lightbox",
+  "version": "1.0.0",
+  "description": "A simple lightbox component from the folks at Compose.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "mochify --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/compose-ui/lightbox.git"
+  },
+  "keywords": [
+    "lightbox"
+  ],
+  "authors": ["Kyle Foster", "Brandon Mathis"],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/compose-ui/lightbox/issues"
+  },
+  "homepage": "https://github.com/compose-ui/lightbox#readme",
+  "dependencies": {
+    "compose-event": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mochify": "^2.17.0"
+  }
+}
