@@ -10,4 +10,8 @@ describe('Lightbox', function(){
   it('has tests', function(){
     assert.equal(2 + 2, 4)
   })
+
+  it('loads Lightbox', function(){
+    assert.equal(lightbox.test(), 'works')
+  })
 })
